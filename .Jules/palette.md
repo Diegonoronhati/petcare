@@ -1,0 +1,3 @@
+## 2024-06-26 - Add proper focus indicators to generic links
+**Learning:** Generic links created with Create React App typically lack distinct `:focus-visible` styles beyond the default browser outline, which can be hard to see. Using raw CSS to add an `outline` and `outline-offset` is a clean way to handle this without introducing large UI libraries.
+**Action:** Always check the default focus state for interactive elements and add a high-contrast `:focus-visible` outline if missing.
