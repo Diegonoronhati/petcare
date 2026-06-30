@@ -1,0 +1,3 @@
+## 2026-06-30 - Contextual Aria Labels for New Tabs & Focus Indicators
+**Learning:** Links opening in new tabs (`target="_blank"`) create unexpected context switches for screen reader users, breaking their mental model of navigation. Default browser focus indicators are often insufficient for keyboard users on interactive elements.
+**Action:** Always append an `aria-label` like `"(opens in a new tab)"` to `_blank` links. Always add clear `:focus-visible` styles with sufficient outline offsets to all interactive elements to ensure clear keyboard navigation paths.
