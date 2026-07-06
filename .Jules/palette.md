@@ -1,0 +1,3 @@
+## 2024-05-24 - External Link Accessibility
+**Learning:** Links that open in a new tab (`target="_blank"`) without warning can be disorienting for screen reader users and users with cognitive disabilities, as they suddenly find themselves in a new browsing context without their back button history.
+**Action:** Always add an `aria-label` (or visually hidden text) to links opening in new tabs to explicitly state that they open in a new tab/window, for instance: `aria-label="[Link Text] (opens in a new tab)"`.
