@@ -1,0 +1,3 @@
+## 2024-05-18 - Clear Focus States and Target Blank Links
+**Learning:** Adding explicit `aria-label`s to `target="_blank"` links provides critical context for screen reader users, preventing confusion about unexpected new tab behavior. Additionally, defining a clear `:focus-visible` outline is essential for keyboard navigation users, as default browser focus indicators are often insufficient.
+**Action:** Always include an `aria-label` explaining new tab behavior for `target="_blank"` links and ensure interactive elements have a well-defined `:focus-visible` state with appropriate `outline-offset`.

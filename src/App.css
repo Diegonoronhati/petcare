@@ -26,6 +26,17 @@
 
 .App-link {
   color: #61dafb;
+  transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.App-link:hover {
+  opacity: 0.8;
+}
+
+.App-link:focus-visible {
+  outline: 2px solid #61dafb;
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 
 @keyframes App-logo-spin {
