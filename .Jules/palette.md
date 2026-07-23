@@ -1,0 +1,3 @@
+## 2024-07-23 - Focus States on Dark Backgrounds & Link Context
+**Learning:** For apps with dark themes (like the default CRA setup), default browser focus outlines are often invisible. Links that open in new tabs also need screen reader context because `target="_blank"` changes browser behavior unexpectedly for screen reader users.
+**Action:** Always provide explicit, high-contrast `:focus-visible` outlines on dark backgrounds. Add `aria-label="... (opens in a new tab)"` or use visually hidden text for external links.
