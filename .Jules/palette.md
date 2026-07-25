@@ -1,0 +1,3 @@
+## 2024-07-25 - Informing Screen Reader Users About Links Opening in New Tabs
+**Learning:** Screen reader users can be disoriented when a link opens in a new tab (`target="_blank"`) without prior warning, as it changes their context unexpectedly.
+**Action:** When adding `target="_blank"` to a link, always include an `aria-label` (e.g., `aria-label="Link text (opens in a new tab)"`) or visually hidden text to inform users of this behavior.
