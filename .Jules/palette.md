@@ -1,0 +1,3 @@
+## 2024-03-05 - Accessible External Links and Focus States
+**Learning:** External links opening in new tabs without screen reader context can be disorienting. Focus states relying only on default browser outlines might lack contrast against custom backgrounds.
+**Action:** Always add `aria-label="... (opens in a new tab)"` or screen reader only text for external links. Use `:focus-visible` with `outline` and `outline-offset` to ensure clear, high-contrast visibility during keyboard navigation, matching the design theme.
