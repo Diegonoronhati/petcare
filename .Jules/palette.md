@@ -1,0 +1,3 @@
+## 2024-07-28 - Focus States and External Link Accessibility
+**Learning:** Default external links often lack explicit context for screen readers and visible focus indicators for keyboard users, making them difficult to interact with securely and accessibly. Relying on default browser focus states can result in poor contrast and usability.
+**Action:** Always include an `aria-label` providing context for links opening in a new tab (e.g., `(opens in a new tab)`). Explicitly define `:focus-visible` styles with sufficient outline offset and contrast to ensure keyboard navigation is clear and accessible.
