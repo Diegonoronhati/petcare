@@ -26,6 +26,13 @@
 
 .App-link {
   color: #61dafb;
+  outline: none;
+}
+
+.App-link:focus-visible {
+  outline: 2px solid #61dafb;
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 
 @keyframes App-logo-spin {
