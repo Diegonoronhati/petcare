@@ -1,0 +1,3 @@
+## 2024-03-24 - Accessibility for external links and focus management
+**Learning:** Screen reader users need explicit warning when a link opens in a new tab (`target="_blank"`), as unexpected context switches can be disorienting. Additionally, while browsers provide default focus outlines, custom styles often inadvertently suppress them or they are insufficient against certain backgrounds; providing an explicit `:focus-visible` state is critical for keyboard navigation usability.
+**Action:** Always include an `aria-label` (e.g., "Link Name (opens in a new tab)") for `target="_blank"` links. Always define explicit `:hover` and `:focus-visible` styles for interactive elements, ensuring they have sufficient contrast and are clearly visible.
