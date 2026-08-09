@@ -1,0 +1,3 @@
+## 2023-10-24 - Accessibility fixes for default Create React App boilerplate
+**Learning:** The default Create React App boilerplate uses a `<header>` element with the class `App-header`, but often this is actually the main content of the default page. More critically, the default React logo is missing a descriptive `alt` attribute and the link to learn React opens in a new tab without explicit context.
+**Action:** Always replace `<header>` with `<main>` if it serves as the primary content wrapper to provide semantic structure, ensure logos have descriptive `alt` tags like `"React logo"`, and always add an `aria-label` like `"Learn React (opens in a new tab)"` for links with `target="_blank"`.
