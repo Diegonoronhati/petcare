@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.App-link:focus-visible {
+  outline: 3px solid #61dafb;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
