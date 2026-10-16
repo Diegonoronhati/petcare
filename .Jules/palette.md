@@ -1,0 +1,1 @@
+## 2026-10-16 - Improve App.js Accessibility\n**Learning:** The default create-react-app template has basic accessibility gaps like generic 'logo' alt text and missing aria-labels for external links. These small changes improve screen reader experience.\n**Action:** Update default alt text and add aria-labels for external links when working with default templates.
