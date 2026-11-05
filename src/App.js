@@ -14,6 +14,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Learn React (opens in a new tab)"
         >
           Learn React
         </a>
